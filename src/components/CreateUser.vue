@@ -136,7 +136,7 @@
             console.log(json)
             json.address.geo =  { lat: 6.927079, lng: 79.861244}
             json.id = null
-            this.$toasted.show('Sucess...',{
+            this.$toasted.show('Success...',{
               position: "bottom-right", 
               duration : 2000,
               class: 'toasting'

@@ -152,7 +152,7 @@
               let filterdArray = this.VisibleUsers.filter((post)=>post.id != id)
 
               this.VisibleUsers = filterdArray.reverse();
-              this.$toasted.show('Sucess...',{
+              this.$toasted.show('Success...',{
                 position: "bottom-right", 
                 duration : 2000,
                 class: 'toasting'

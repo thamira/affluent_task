@@ -121,7 +121,7 @@
           .then((response) => response.json())
           .then((json) => {
             this.$store.dispatch("currentUser", json)
-            this.$toasted.show('Sucess...',{
+            this.$toasted.show('Success...',{
               position: "bottom-right", 
               duration : 2000,
               class: 'toasting'

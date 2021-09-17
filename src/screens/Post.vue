@@ -90,7 +90,7 @@
               let filterdArray = this.PostComments.filter((comment)=>comment.id != id)
               this.$store.dispatch("removePostComment", filterdArray);
               
-              this.$toasted.show('Sucess...',{
+              this.$toasted.show('Success...',{
                 position: "bottom-right", 
                 duration : 2000,
                 class: 'toasting'
